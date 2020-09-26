@@ -1,0 +1,92 @@
+body{
+	background-image:url('Desert11.jpeg');
+	background-repeat:no-repeat;
+	background-size:cover;
+	height:100%;
+}
+.container{
+	position:absolute;
+	top:40%;
+	left:50%;
+	-webkit-transform:translate(-40%,-30%);
+	transform:translate(-40%,-40%);
+}
+table{
+	width:700px;
+	border-collapse:collapse;
+	overflow:hidden;
+	box-shadow:0 0 20px rgba(0,0,0,0.5);
+	right:100%;
+}
+th,td{
+	padding:15px;
+	background-color:rgba(255,255,255,0.2);
+	color:black;
+}
+th{
+	text-align:left;
+	background-color:#8BC9C7;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:15px;
+}
+tbody td{
+	position:relative;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:15px;
+}
+tbody tr:hover{
+	background-color:rgba(255,255,255,0.3);
+}
+tbody td:hover:before{
+	content:"";
+	position:absolute;
+	left:0;
+	right:0;
+	top:9999px;
+	bottom:9999px;
+	background-color:rgba(205,129,172,0.2);
+	z-index:1;
+}
+.sidenav{
+	display:none;
+	height:100%;
+	width:250px;
+	position:fixed;
+	z-index:1;
+	top:0;
+	left:0;
+	background-color:#FFFFC2;
+	overflow-x:hidden;
+	padding-top:60px;
+}
+span{
+	color:black;
+}
+.sidenav a{
+	padding: 30px 28px 8px 32px;
+	text-decoration:none;
+	font-size:25px;
+	color:gray;
+	display:block;
+}
+.sidenav a:hover{
+	color:black;
+}
+sidenav .closebtn{
+	position:absolute;
+	color:black;
+	top:0;
+	right:25px;
+	font-size:40px;
+	margin-left:50px;
+}
+img1{
+	width:85%;
+	height:25%;
+	padding-top:80%;
+padding-left:8%;
+}
+s
+
+	
+	

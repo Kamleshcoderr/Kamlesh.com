@@ -1,0 +1,140 @@
+body{
+	background-image:url('Desert9.jpeg');
+	background-repeat:no-repeat;
+	width:100%;
+	background-color:#FFFFC2;
+}
+h1{
+	color:blue;
+	font-family:Lato;
+	font-size:37px;
+	text-shadow:1px 2px black;
+}
+h2{
+	font-family:Lato;
+	font-size:37px;
+	color:red;
+	text-shadow:1px 2px black;
+}
+/*Textimonials*/
+.container{
+
+	padding:16px;
+	position:absolute;
+	right:0;
+	top:0;
+	background-color:rgba(163,207,201,0.2);
+	width:40.9%;
+}
+.container img{
+	float:left;
+	margin-right:20px;
+	border-radius:50%;
+}
+h3,p{
+	text-align:center;
+	font-family:helvetica;
+}
+.skillset{
+	width:485px;
+	background-color:rgba(163,207,201,0.2);
+	padding:10px;
+	left:16.6%;
+	top:0;
+	position:absolute;
+}
+.skills{
+	text-align:right;
+	padding-top:10px;
+	padding-bottom:10px;
+	color:white;
+	font-family:helvetica;
+	background-color:#808080;
+	border-radius:5px;
+	border:0.25px solid #ccc;
+}
+/*Core skills*/
+.wdes{
+	width:80%;
+	background-color:#9CB071;
+}
+.php{
+	width:60%;
+	background-color:black;
+}
+.wd{
+	width:55%;
+	background-color:#FF7F50;
+}
+.ux{
+	width:50%;
+	background-color:#C0C0C2;
+}
+.js{
+	width:40%;
+	background-color:#80D4F0;
+}
+/*Soft skills*/
+.alist{
+	width:90%;
+	background-color:#FF7F50;
+}
+.tms{
+	width:80%;
+	background-color:black;
+}
+.ips{
+	width:60%;
+	background-color:#80D4F0;
+}
+.comms{
+	width:75%;
+	background-color:#C0C0C2;
+}
+.tplayer{
+	width:50%;
+	background-color:#9CB071;
+}
+.prob{
+	width:40%;
+	background-color:#80D4F0;
+}
+.sidenav{
+	display:none;
+	height:100%;
+	width:250px;
+	position:fixed;
+	z-index:1;
+	top:0;
+	left:0;
+	background-color:#FFFFC2;
+	overflow-x:hidden;
+	padding-top:60px;
+}
+span{
+	color:black;
+}
+.sidenav a{
+	padding: 30px 28px 8px 32px;
+	text-decoration:none;
+	font-size:25px;
+	color:gray;
+	display:block;
+}
+.sidenav a:hover{
+	color:black;
+}
+sidenav .closebtn{
+	position:absolute;
+	color:black;
+	top:0;
+	right:25px;
+	font-size:40px;
+	margin-left:50px;
+}
+img1{
+	width:85%;
+	height:25%;
+	padding-top:80%;
+padding-left:8%;
+}
