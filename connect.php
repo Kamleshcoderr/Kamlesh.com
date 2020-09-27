@@ -1,10 +1,10 @@
 <?php
-  $user_name=$_post['user_name'];
-  $user_email=$_post['user_email'];
-  $user_message=$_post['user_message'];
+  $user_name=$_POST['user_name'];
+  $user_email=$_POST['user_email'];
+  $user_message=$_POST['user_message'];
   
   
-  $con=new mysqli('localhost','root','','test');
+  $conn=new mysqli('localhost','root','','kamlesh');
   if ($con->connect_error){
 	  die('Connection Failed:'.$conn->connect_error);
   }
