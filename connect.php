@@ -4,7 +4,7 @@
   $user_message=$_POST['user_message'];
   
   
-  $conn=new mysqli('localhost','root','','kamlesh');
+  $conn=new mysqli('kamlesh8969.github.io','root','','kamlesh');
   if ($con->connect_error){
 	  die('Connection Failed:'.$conn->connect_error);
   }
