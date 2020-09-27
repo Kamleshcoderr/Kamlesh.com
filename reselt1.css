@@ -1,0 +1,50 @@
+body{
+	background-image:url('Desert18.jpg');
+	background-position:left-bottom;
+	background-repeat:no-repeat;
+	background-size:100% 300%;
+	
+}
+.sidenav{
+	display:none;
+	height:100%;
+	width:250px;
+	position:fixed;
+	z-index:1;
+	top:0;
+	left:0;
+	background-color:#FFFFC2;
+	overflow-x:hidden;
+	padding-top:60px;
+}
+span{
+	color:black;
+}
+.sidenav a{
+	padding: 30px 28px 8px 32px;
+	text-decoration:none;
+	font-size:25px;
+	color:gray;
+	display:block;
+}
+.sidenav a:hover{
+	color:black;
+}
+sidenav .closebtn{
+	position:absolute;
+	color:black;
+	top:0;
+	right:25px;
+	font-size:40px;
+	margin-left:50px;
+}
+img1{
+	width:85%;
+	height:25%;
+	padding-top:80%;
+padding-left:8%;
+}
+
+
+	
+	
